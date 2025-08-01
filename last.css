@@ -1,0 +1,159 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f7f7;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ===== Banner Animation ===== */
+header {
+  text-align: center;
+  background-color: #ff3d3d;
+  padding-bottom: 10px;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  display: block;
+  animation: fadeInSlide 1.5s ease-in-out;
+}
+
+@keyframes fadeInSlide {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.banner h1 {
+  color: white;
+  font-size: 1.8rem;
+  padding: 10px;
+  animation: fadeInSlide 1.8s ease-in-out;
+}
+
+/* ===== Live Subscriber Section ===== */
+.sub-count-container {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.sub-count-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.sub-count-iframe {
+  width: 500px;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* ===== Subscribe Button Animation ===== */
+.subscribe-side {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-btn {
+  padding: 18px 30px;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+  animation: glowing 1.5s infinite;
+  transition: transform 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #cc0000;
+  transform: scale(1.1);
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 5px #ff0000; }
+  50% { box-shadow: 0 0 20px #ff0000; }
+  100% { box-shadow: 0 0 5px #ff0000; }
+}
+
+/* ===== Products Section ===== */
+main {
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInSlide 1.2s ease-in-out;
+}
+
+.product:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 8px;
+}
+
+/* ===== Buy Button Animation ===== */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ff3d3d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+  animation: glowing 2s infinite;
+}
+
+.btn:hover {
+  background-color: #e62b2b;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  margin-top: 30px;
+}
