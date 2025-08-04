@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- Home Page -->
+   <url>
+      <loc>https://creatingforyou.netlify.app/</loc>
+      <lastmod>2025-08-04</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <!-- Product 1 Page -->
+   <url>
+      <loc>https://creatingforyou.netlify.app/product1.jpg</loc>
+      <lastmod>2025-08-04</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Product 2 Page -->
+   <url>
+      <loc>https://creatingforyou.netlify.app/product2.jpg</loc>
+      <lastmod>2025-08-04</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Product 3 Page -->
+   <url>
+      <loc>https://creatingforyou.netlify.app/product3.jpg</loc>
+      <lastmod>2025-08-04</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+</urlset>
